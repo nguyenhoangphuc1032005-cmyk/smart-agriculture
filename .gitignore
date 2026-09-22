@@ -1,0 +1,189 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Environment & secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.sql.gz
+data/*.db
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.cursor/
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# ============================================
+# Frontend (Node / React / Vue)
+# ============================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.parcel-cache
+.next/
+out/
+.nuxt/
+.vuepress/dist
+.svelte-kit
+.cache
+coverage/
+
+# ============================================
+# ML / AI Models
+# ============================================
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+models/*.h5
+models/*.pt
+models/*.onnx
+models/*.tflite
+checkpoints/
+runs/
+
+# ============================================
+# ESP32 / PlatformIO
+# ============================================
+.pio/
+.pioenvs/
+.piolibdeps/
+*.pio
+*.elf
+*.bin
+*.hex
+
+# ============================================
+# STM32 / Embedded
+# ============================================
+*.o
+*.obj
+*.exe
+*.out
+*.axf
+*.map
+*.lst
+*.crf
+*.dep
+*.d
+*.htm
+*.bin
+*.hex
+*.s19
+Debug/
+Release/
+
+# ============================================
+# Media / uploads
+# ============================================
+uploads/
+media/
+*.mp4
+*.avi
+*.mov
+*.png
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.svg
+!docs/**/*.gif
+
+# ============================================
+# Test / coverage
+# ============================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================
+# Tài liệu nội bộ trường / khoa — KHÔNG push lên repo public
+# ============================================
+Huong dan thuc hien Do An-KLTN va viet bao cao.pdf
+*Huong*dan*.pdf
+*Huong_dan*.pdf
+*.doan-kltn.pdf
+*.kltn.pdf
+
+# ============================================
+# Misc
+# ============================================
+*.bak
+*.tmp
+*.swp
+*.orig
+.recommenders/
+*.zip
+*.tar.gz
+*.rar
